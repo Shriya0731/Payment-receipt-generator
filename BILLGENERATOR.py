@@ -7,7 +7,7 @@ import pip
 doc = SimpleInvoice('invoicenew.pdf')
 # data which we are going to display as tables
 
-workbook = op.load_workbook("sample.xlsx")
+workbook = op.load_workbook("productlist.xlsx")
 sheet = workbook.active
 wb2 = op.load_workbook("order.xlsx")
 sheet2 = wb2.active
