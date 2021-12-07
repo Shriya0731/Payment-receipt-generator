@@ -12,8 +12,6 @@ sheet = workbook.active
 wb2 = op.load_workbook("order.xlsx")
 sheet2 = wb2.active
 
-
-k=12
 index=1
 print(sheet2.max_row)
 for j in range(2, sheet2.max_row+1):
